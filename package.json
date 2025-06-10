@@ -6,9 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "next build && node scripts/vercel-success.js",
-    "vercel-deploy": "npm run build && npm run export"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.3",
